@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+
+body {
+  color: rgb(var(--foreground-end-rgb));
+  background-color: white;
+  padding: 0.5rem;
+}
+
+.formSec
+{
+  box-shadow: 3px 3px 5px rgb(0, 255, 234);
+}
+
+
+::-webkit-scrollbar {
+  width: 0rem;
+  display: none;
+   opacity: 0;
+}
